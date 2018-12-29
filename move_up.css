@@ -1,0 +1,179 @@
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.moveup_container {
+    display: inline-block;
+    background: #403757;
+    padding: 0px;
+    border: 0px solid #ccc;
+    width: 500px;
+}
+
+.title-box {
+    height: 100px;
+    overflow: hidden;
+}
+
+.description-box {
+    height: 72px;
+    overflow: hidden;
+}
+
+.title-box ul {
+    position: relative;
+    animation: titleUp 12s 1.5s infinite;
+    -webkit-animation: titleUp 12s 1.5s infinite;
+}
+
+.description-box ul {
+    position: relative;
+    animation: descriptionUp 12s 1.5s infinite;
+    -webkit-animation: descriptionUp 12s 1.5s infinite;
+}
+
+@keyframes titleUp {
+    0% {
+        top: 0px;
+    }
+    23% {
+        top: 0px;
+    }
+    25% {
+        top: -100px;
+    }
+    48% {
+        top: -100px;
+    }
+    50% {
+        top: -200px;
+    }
+    73% {
+        top: -200px;
+    }
+    75% {
+        top: -300px;
+    }
+    98% {
+        top: -300px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes titleUp
+/*Safari and Chrome*/
+
+    {
+    0% {
+        top: 0px;
+    }
+    23% {
+        top: 0px;
+    }
+    25% {
+        top: -100px;
+    }
+    48% {
+        top: -100px;
+    }
+    50% {
+        top: -200px;
+    }
+    73% {
+        top: -200px;
+    }
+    75% {
+        top: -300px;
+    }
+    98% {
+        top: -300px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+@keyframes descriptionUp {
+    0% {
+        top: 0px;
+    }
+    23% {
+        top: 0px;
+    }
+    25% {
+        top: -72px;
+    }
+    48% {
+        top: -72px;
+    }
+    50% {
+        top: -144px;
+    }
+    73% {
+        top: -144px;
+    }
+    75% {
+        top: -216px;
+    }
+    98% {
+        top: -216px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes descriptionUp
+/*Safari and Chrome*/
+
+    {
+    0% {
+        top: 0px;
+    }
+    23% {
+        top: 0px;
+    }
+    25% {
+        top: -72px;
+    }
+    48% {
+        top: -72px;
+    }
+    50% {
+        top: -144px;
+    }
+    73% {
+        top: -144px;
+    }
+    75% {
+        top: -216px;
+    }
+    98% {
+        top: -216px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+.title-box li {
+    font-family: "Roboto Condensed";
+    font-size: 66px;
+    line-height: 1.5;
+    color: #906DFA;
+    font-weight: bold;
+}
+
+.description-box li {
+    font-family: "Open Sans";
+    font-size: 24px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}

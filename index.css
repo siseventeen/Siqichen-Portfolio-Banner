@@ -1,0 +1,96 @@
+#main_div {
+    flex: 980 1 0%;
+    margin-left: 0px;
+    min-width: 980px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: -10px;
+    left: -10px;
+    height: 607px;
+    position: relative;
+}
+
+#left_bg {
+    position: absolute;
+    margin-right: 75%;
+    margin-top: 0px;
+    background: #906dfa;
+    height: 607px;
+    width: 100%;
+}
+
+#right_bg {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 0px;
+    background: #403757;
+    height: 607px;
+    width: 100%;
+}
+
+#characters {
+    position: absolute;
+    margin-left: calc(25% + 250px);
+    top: 111px;
+}
+
+#name_p {
+    font-weight: bold;
+    font-family: open sans, sans-serif;
+    font-size: 32px;
+    line-height: 1.46em;
+}
+
+#im_p {
+    font-size: 28px;
+    line-height: 1.46em;
+    font-family: open sans, sans-serif;
+    color: white;
+}
+
+#ec {
+    color: #906DFA;
+}
+
+#hi {
+    color: white;
+}
+
+#canvas_div {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: -webkit-linear-gradient(#352A90, #A39FE6);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#352A90, #A39FE6);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#352A90, #A39FE6);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#352A90, #A39FE6);
+    position: absolute;
+    z-index: 10;
+    border-radius: 200px;
+    width: 400px;
+    height: 400px;
+    opacity: 0.7;
+    margin-left: calc(25% - 200px);
+    top: 96px;
+}
+
+#photo {
+    visibility: visible !important;
+    display: block !important;
+    opacity: 0;
+}
+
+#canvas_div img, canvas {
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    background: transparent;
+}
+
+canvas {
+    opacity: 1;
+}
