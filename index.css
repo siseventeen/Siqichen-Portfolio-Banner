@@ -14,7 +14,12 @@
     position: absolute;
     margin-right: 73%;
     margin-top: 0px;
-    background: #906dfa;
+    background: -webkit-linear-gradient(to top right,#420FC4, #906DFA);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to top right,#420FC4, #906DFA);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to top right,#420FC4, #906DFA);
+    /* For Firefox 3.6 to 15 */
     height: 607px;
     width: 27%;
 }
