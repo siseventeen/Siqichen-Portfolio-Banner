@@ -14,13 +14,13 @@
     position: absolute;
     margin-right: 73%;
     margin-top: 0px;
-    background: -webkit-linear-gradient(to bottom right, #906DFA, #420FC4);
+    background: -webkit-linear-gradient(to bottom left, #906DFA, #420FC4);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(to bottom right, #906DFA, #420FC4);
+    background: -o-linear-gradient(to bottom left, #906DFA, #420FC4);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(to bottom right, #906DFA, #420FC4);
+    background: -moz-linear-gradient(to bottom left, #906DFA, #420FC4);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #906DFA, #420FC4);
+    background: linear-gradient(to bottom left, #906DFA, #420FC4);
     height: 607px;
     width: 27%;
 }
