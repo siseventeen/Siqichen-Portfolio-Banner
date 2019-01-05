@@ -22,7 +22,7 @@
     /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom left, #906DFA, #420FC4);
     height: 607px;
-    width: 27%;
+    width: calc(50%-340px);
 }
 
 #right_bg {
@@ -31,7 +31,7 @@
     margin-top: 0px;
     background: #403757;
     height: 607px;
-    width: 73%;
+    width: calc(50%+340px);
 }
 
 #characters {
