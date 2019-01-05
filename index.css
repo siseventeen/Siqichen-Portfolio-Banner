@@ -20,6 +20,7 @@
     /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(to bottom right, #906DFA, #420FC4);
     /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #906DFA, #420FC4);
     height: 607px;
     width: 27%;
 }
