@@ -12,7 +12,7 @@
 
 #left_bg {
     position: absolute;
-    margin-right: 73%;
+    margin-right: calc(50%+340px);
     margin-top: 0px;
     background: -webkit-linear-gradient(to bottom left, #906DFA, #420FC4);
     /* For Safari 5.1 to 6.0 */
@@ -27,7 +27,7 @@
 
 #right_bg {
     position: absolute;
-    margin-left: 27%;
+    margin-left: calc(50%-340px);
     margin-top: 0px;
     background: #403757;
     height: 607px;
@@ -36,7 +36,7 @@
 
 #characters {
     position: absolute;
-    margin-left: calc(27% + 280px);
+    margin-left: calc(50% - 60px);
     top: 111px;
 }
 
@@ -80,7 +80,7 @@
     width: 400px;
     height: 400px;
     opacity: 0.7;
-    margin-left: calc(27% - 200px);
+    margin-left: calc(50% - 540px);
     top: 96px;
 }
 
