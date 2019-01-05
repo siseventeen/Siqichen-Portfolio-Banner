@@ -12,7 +12,7 @@
 
 #left_bg {
     position: absolute;
-    margin-right: calc(50%+340px);
+    margin-right: calc(50% + 340px);
     margin-top: 0px;
     background: -webkit-linear-gradient(to bottom left, #906DFA, #420FC4);
     /* For Safari 5.1 to 6.0 */
@@ -22,16 +22,16 @@
     /* For Firefox 3.6 to 15 */
     background: linear-gradient(to bottom left, #906DFA, #420FC4);
     height: 607px;
-    width: calc(50%-340px);
+    width: calc(50% - 340px);
 }
 
 #right_bg {
     position: absolute;
-    margin-left: calc(50%-340px);
+    margin-left: calc(50% - 340px);
     margin-top: 0px;
     background: #403757;
     height: 607px;
-    width: calc(50%+340px);
+    width: calc(50% + 340px);
 }
 
 #characters {
